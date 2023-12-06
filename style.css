@@ -21,7 +21,8 @@ padding: 1.0em; border-radius: 0.5em;}
 article.left{display: inline-block; text-align: left; display: inline-block; width: 75%;} 
 article.right{display: inline-block; text-align: right; display: inline-block; width: 25%;}
 div.traits img{vertical-align: middle; margin-right: 0.75rem;}
-div.traits{padding: 1.0em; border-radius: 0.5em; margin-bottom: 1em;}
+div.traits{padding: 1.0em; border-radius: 0.5em; margin-bottom: 1em; transition: transform 150ms;}
+div.traits:hover{transform: scale(1.03);}
 div.yellow{background-color:  hsla(39, 100%, 56%,0.3) ;}
 div.green{background-color: hsla(166, 100%, 37%,0.2);}
 div.blue{background-color: hsla(234, 85%, 45%,0.3); }
@@ -34,7 +35,7 @@ article.blue{color:#1125D6;}
 a{text-decoration: none; color: white; background-color: rgb(24, 24, 53);
 display: block; width: 80%; text-align: center; margin-right: auto; margin-left: auto;
 margin-bottom: 2em; padding: 4em auto; padding-top: 1.5em; padding-bottom: 1.5em; border-radius: 2em;
-transition: transform 1s ease ;}
+transition: transform 0.5s ease scale 0.5s ease ;}
 a:hover{transform: scale(1.03);}
 a:active{scale: 0.96; background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));}
 @media(min-width:780px){body{display: flex; flex-direction: row;}.sec2{width: 50%;} .sec1{width:50%}}
